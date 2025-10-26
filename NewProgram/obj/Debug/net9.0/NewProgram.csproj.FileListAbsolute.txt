@@ -1,0 +1,15 @@
+C:\Users\ashya\Documents\C#Projects\NewProgram\bin\Debug\net9.0\NewProgram.exe
+C:\Users\ashya\Documents\C#Projects\NewProgram\bin\Debug\net9.0\NewProgram.deps.json
+C:\Users\ashya\Documents\C#Projects\NewProgram\bin\Debug\net9.0\NewProgram.runtimeconfig.json
+C:\Users\ashya\Documents\C#Projects\NewProgram\bin\Debug\net9.0\NewProgram.dll
+C:\Users\ashya\Documents\C#Projects\NewProgram\bin\Debug\net9.0\NewProgram.pdb
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.AssemblyInfoInputs.cache
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.AssemblyInfo.cs
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.csproj.CoreCompileInputs.cache
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.sourcelink.json
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.dll
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\refint\NewProgram.dll
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.pdb
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\NewProgram.genruntimeconfig.cache
+C:\Users\ashya\Documents\C#Projects\NewProgram\obj\Debug\net9.0\ref\NewProgram.dll
