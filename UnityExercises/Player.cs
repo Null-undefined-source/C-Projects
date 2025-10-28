@@ -41,6 +41,7 @@ class Player
     public void TakeDamage(int val)
     {
         Health -= val;
+        
     }
 
     public void AddExperience(int val)
