@@ -1,4 +1,6 @@
-﻿namespace NewProgram;
+﻿using System.ComponentModel;
+
+namespace NewProgram;
 class Program
 {
     static void Main(string[] args)
@@ -52,9 +54,12 @@ class Program
         //Factorial Exerise
         // FactorialExercise Fe = new FactorialExercise();
         // Fe.Run();
-
-        FibonacciExercise Fb = new FibonacciExercise();
-        Fb.Run();
+        //Fibonacci Exercise
+        // FibonacciExercise Fb = new FibonacciExercise();
+        // Fb.Run();
+        //Array Exercise
+        NumberArrays Na = new NumberArrays();
+        Na.Run();
     }
 
     private static bool IsEven(int num)
