@@ -6,6 +6,7 @@ class Player
     private int _level;
     private int _experience;
     private int _maxHealth;
+    private int _damage;
 
     public Player(string name, int health, int level)
     {
@@ -14,6 +15,7 @@ class Player
         Level = level;
         Experience = 0;
         MaxHealth = health;
+        Damage = 10;
     }
 
     public int Health
@@ -35,13 +37,29 @@ class Player
     public int Experience
     {
         get => _experience;
-        private set => _experience = value; 
+        private set => _experience = value;
+    }
+    
+    public int Damage
+    {
+        get => _damage;
+        set => _damage = value > 1 ? value : 1;
     }
 
+    public void Attack(Enemy enemy)
+    {
+        Console.WriteLine($"{Name} attacks {enemy.Name} for {Damage} HP");
+        AddExperience(enemy.TakeDamage(Damage));
+    }
     public void TakeDamage(int val)
     {
         Health -= val;
-        
+        if(Health <= 0)
+        {
+            Console.WriteLine($"{Name} has been defeated");
+            return;
+        }
+        Console.WriteLine($"{Name} health: {Health}/{MaxHealth}");
     }
 
     public void AddExperience(int val)
@@ -56,7 +74,7 @@ class Player
 
         //better version;
         Experience += val;
-        while (Experience > 100)
+        while (Experience >= 100)
         {
             LevelUp();
             Experience -= 100;
@@ -68,6 +86,7 @@ class Player
         MaxHealth += 10;
         Level++;
         Health = MaxHealth;
+        Damage = 10 + (int)(Level*1.5);
     }
     
     public void Heal(int amount)
@@ -80,6 +99,11 @@ class Player
     }
     public void PlayerStatus()
     {
-        Console.WriteLine($"{Name} at Level {Level} has {Health}/{MaxHealth} HP and {Experience} XP");
+        if (Health <= 0)
+        {
+            Console.WriteLine($"{Name} is dead");
+            return;
+        }
+        Console.WriteLine($"{Name} is at Level {Level} has {Health}/{MaxHealth} HP and {Experience} XP");
     }
 }
