@@ -1,0 +1,15 @@
+C:\Users\ashya\Documents\C#Projects\UnityExercises\bin\Debug\net9.0\UnityExercises.exe
+C:\Users\ashya\Documents\C#Projects\UnityExercises\bin\Debug\net9.0\UnityExercises.deps.json
+C:\Users\ashya\Documents\C#Projects\UnityExercises\bin\Debug\net9.0\UnityExercises.runtimeconfig.json
+C:\Users\ashya\Documents\C#Projects\UnityExercises\bin\Debug\net9.0\UnityExercises.dll
+C:\Users\ashya\Documents\C#Projects\UnityExercises\bin\Debug\net9.0\UnityExercises.pdb
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.AssemblyInfoInputs.cache
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.AssemblyInfo.cs
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.csproj.CoreCompileInputs.cache
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.sourcelink.json
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.dll
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\refint\UnityExercises.dll
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.pdb
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\UnityExercises.genruntimeconfig.cache
+C:\Users\ashya\Documents\C#Projects\UnityExercises\obj\Debug\net9.0\ref\UnityExercises.dll
