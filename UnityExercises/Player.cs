@@ -7,6 +7,7 @@ class Player
     private int _experience;
     private int _maxHealth;
     private int _damage;
+    private List<Item> Inventory = new List<Item>();
 
     public Player(string name, int health, int level)
     {
@@ -88,13 +89,47 @@ class Player
         Health = MaxHealth;
         Damage = 10 + (int)(Level*1.5);
     }
-    
+
     public void Heal(int amount)
     {
         Health += amount;
-        if(Health > MaxHealth)
+        if (Health > MaxHealth)
         {
             Health = MaxHealth;
+        }
+    }
+
+    //Related to Inventory
+    public void AddItem(Item item)
+    {
+        Inventory.Add(item);
+        Console.WriteLine($"{item.Name} was added to inventory");
+    }
+
+    public void UseItem(string itemName)
+    {
+        var item = Inventory.FirstOrDefault(i => i.Name == itemName);
+        if (item == null)
+        {
+            Console.WriteLine($"{itemName} not found in inventory");
+            return;
+        }
+        item.Use(this);
+        if (item.IsConsumeable)
+        {
+            Inventory.Remove(item);
+        }
+    }
+    
+    public void ShowInventory()
+    {
+        if (!Inventory.Any())
+        {
+            Console.WriteLine($"Nothing in Inventory");
+        }
+        foreach(var item in Inventory)
+        {
+            Console.WriteLine($"{item.Name} : {item.Description}");
         }
     }
     public void PlayerStatus()
